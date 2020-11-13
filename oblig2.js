@@ -33,8 +33,7 @@ function select (barNo) {
 }
 
 function removeSelectedBar () {
-    let barToBeSliced = chosenBar - 1;
-    numbers.splice(barToBeSliced, 1);
+    numbers.splice(chosenBar - 1, 1);
     show();
 }
 
